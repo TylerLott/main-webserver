@@ -2,13 +2,13 @@
   {
     "id": "redeploy-resume-site-frontend",
     "execute-command": "/home/ubuntu/main-webserver/scripts/resume-site-frontend-react-app-redeploy.sh",
-    "command-working-directory": "/home/ubuntu/main-webserver/hooks",
+    "command-working-directory": "/",
     "response-message": "Redeploying Frontend Resume Site Server."
   },
   {
     "id": "redeploy-resume-site-backend",
     "execute-command": "/home/ubuntu/main-webserver/scripts/resume-site-backend-flask-rest-api-redeploy.sh",
-    "command-working-directory": "/home/ubuntu/main-webserver/hooks",
+    "command-working-directory": "/",
     "response-message": "Redeploying Backend Resume Site REST Server."
   }
 ]
