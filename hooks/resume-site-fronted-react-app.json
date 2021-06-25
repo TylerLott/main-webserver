@@ -1,0 +1,8 @@
+[
+  {
+    "id": "redeploy",
+    "execute-command": "/main-webserver/scripts/resume-site-backend-flask-rest-api-redeploy.sh",
+    "command-working-directory": "/main-webserver/hooks",
+    "response-message": "Redeploying Frontend Resume Site Server."
+  }
+]

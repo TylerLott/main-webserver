@@ -1,0 +1,8 @@
+[
+  {
+    "id": "redeploy",
+    "execute-command": "/main-webserver/scripts/resume-site-frontend-react-app-redeploy.sh",
+    "command-working-directory": "/main-webserver/hooks",
+    "response-message": "Redeploying Frontend Resume Site Server."
+  }
+]
