@@ -1,0 +1,12 @@
+[Unit]
+Description=Github webhooks
+After=network.target
+
+[Service]
+User=http
+Type=simple
+ExecStart=webhook -hooks /home/ubuntu/main-webserver/hooks/hooks.json
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
