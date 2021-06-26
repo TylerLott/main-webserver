@@ -18,7 +18,7 @@ sudo docker container prune -f
 # START CONTAINERS
 sudo docker run -d --network work-innov-network-backend-prod --name=work-innov-backend-flask-rest-api tylerlott/work-innov-database-mongodb:prod
 sudo docker run -d --network work-innov-network-backend-prod --name=work-innov-backend-flask-rest-api tylerlott/work-innov-backend-rest-api:prod
-sudo docker connect -network=work-innov-network-frontend-prod work-innov-backend-flask-rest-api
+sudo docker connect --network=work-innov-network-frontend-prod work-innov-backend-flask-rest-api
 sudo docker run -d -p 4000:3000 --network work-innov-network-frontend-prod --work-innov-frontend-react-app tylerlott/work-innov-frontend-react-app:prod
 
 # REMOVE ALL UNUSED IMAGES
