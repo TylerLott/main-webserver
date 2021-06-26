@@ -10,5 +10,25 @@
     "execute-command": "/home/ubuntu/main-webserver/scripts/resume-site-backend-flask-rest-api-redeploy.sh",
     "command-working-directory": "/",
     "response-message": "Redeploying Backend Resume Site REST Server."
+  },
+
+
+  {
+    "id": "redeploy-work-innov-backend",
+    "execute-command": "/home/ubuntu/main-webserver/scripts/work-innov-backend-flask-rest-api-redeploy.sh",
+    "command-working-directory": "/",
+    "response-message": "Redeploying Backend Work Innov REST Server."
+  },
+  {
+    "id": "redeploy-work-innov-frontend",
+    "execute-command": "/home/ubuntu/main-webserver/scripts/work-innov-frontend-react-app-redeploy.sh",
+    "command-working-directory": "/",
+    "response-message": "Redeploying Work Innov Frontend Server."
+  },
+  {
+    "id": "redeploy-work-innov-database",
+    "execute-command": "/home/ubuntu/main-webserver/scripts/work-innov-database-mongodb-redeploy.sh",
+    "command-working-directory": "/",
+    "response-message": "Redeploying Work Innov Database Server."
   }
 ]
