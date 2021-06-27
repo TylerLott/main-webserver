@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # PULL NEWEST DOCKER IMAGE
-sudo docker pull tylerlott/work-innov-backend-rest-api:prod
+sudo docker pull tylerlott/work-innov-backend-flask-rest-api:prod
 
 # STOP ALL SITE CONTAINERS
 #         ** this probably doesnt need to be done with all containers, just the one
